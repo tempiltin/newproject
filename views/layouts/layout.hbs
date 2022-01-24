@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ {{> head}}
+  <body>
+    <div id="loading">
+         <div id="loading-center">
+         </div>
+      </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2">{{> navbarLeft}}</div>
+        <div class="col-10">
+          {{> navbarTop}}
+          {{{body}}}
+          {{> footer}}
+          {{> colors}}
+          {{> script}}
+          </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
